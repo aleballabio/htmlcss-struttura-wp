@@ -33,3 +33,37 @@ main > div {
     width: 800px;
     height: 400px;
 }
+
+.contenitore2::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.contenitore2 > div {
+    background-color: rgba(171,207,231,255);
+}
+
+.intestazione {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100px;
+}
+
+.sidebar-left {
+    width: 20%;
+    height: 335px;
+    float: left;
+}
+
+.sidebar-right {
+    width: 20%;
+    height: 335px;
+    float: right;
+}
