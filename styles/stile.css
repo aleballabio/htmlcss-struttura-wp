@@ -9,13 +9,27 @@ header {
     height: 50px;
     background-color: rgba(229,121,230,255);
     margin: 0 auto;
-    padding-top: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 main {
     margin: 0 auto;
 }
 
-margin > div {
-    padding-top: 5px;
+main > div {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.contenitore1 {
+    background-color: rgba(225,214,122,255);
+    width: 800px;
+    height: 400px;
+}
+
+.contenitore2 {
+    background-color: rgba(171,207,231,255);
+    width: 800px;
+    height: 400px;
 }
