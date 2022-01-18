@@ -26,6 +26,7 @@ main > div {
     background-color: rgba(225,214,122,255);
     width: 750px;
     height: 350px;
+    margin-bottom: 20px;
 }
 
 .contenitore2 {
